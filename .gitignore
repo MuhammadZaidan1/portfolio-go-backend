@@ -1,11 +1,7 @@
-# Local env
 .env
 .env.*
-
-# Go workspace
+!.env.example
 go.work
-
-# Build outputs
 *.exe
 *.exe~
 *.dll
@@ -15,18 +11,12 @@ go.work
 *.out
 *.prof
 main
-
-# Editor / IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# OS files
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Logs / temp
 *.log
 *.tmp
